@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'OleoScript-Regular';
+    src: url(Font/OleoScript-Regular.ttf);
+
+    font-family: 'OleoScript-Bold';
+    src: url(Font/OleoScript-Bold.ttf);
+}
+
+.cc-font {
+    font-family: 'OleoScript-Regular';
+
+}
+
+.cc-font1 {
+    font-family: 'OleoScript-Bold';
+}
+
+.dropbtn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+.cc-btn {
+    border-radius: 7px;
+    color: #f9bc40;
+    background-color: black;
+    padding: 5px;
+    margin: 5px;
+}
+
+.cc-btn:hover {
+    background-color: white;
+    color: black;
+}
+
+.cc-btn1 {
+    width: 150px;
+    height: 30px;
+    border: 1px solid black;
+    border-radius: 7px;
+    color: black;
+    background-color: #f9bc40;
+}
+
+.cc-btn1:hover {
+    background-color: black;
+    color: white;
+}
+
+.cc-btn2 {
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: black;
+}
+
+.cc-img {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    
+}
+
+.cc-image {
+    height: 360px;
+    width: 410px;
+    rotate: 330deg;
+}
+
+.cc-image:hover {
+    transition-duration: 1s;
+    scale: 1.2;
+}
+
+
+.cc-box {
+    /* flex-grow: 1;
+    flex-basis: 200; */
+}
+
+.cc-box:hover {
+    /* height: auto; */
+    border-radius: 5%;
+    box-shadow: 0px 5px 10px 0px;
+}
+
+.cc-background {
+    padding: 30px 0px 10px 20px;
+    width: 90%;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #f9bc40, #f8e50c);
+}
+
+.cc-background:hover {
+    background-image: linear-gradient(to left, #f8e50c, #f8e50c);
+}
+
+.cc-background1 {
+    padding: 30px 0px 10px 20px;
+    width: 90%;
+    border-radius: 15px;
+    background-image: linear-gradient(to left, #de3401, #050101);
+}
+
+.cc-background1:hover {
+    background-image: linear-gradient(to left, #de3401, #100301, #050101);
+}
+
+.img-hover:hover {
+    scale: 1.2;
+    transition-duration: 5s;
+    position: static;
+    width: 400px;
+}
+
+
+.cc-img1 {
+    /* width: 150px; */
+    height: 145px;
+    margin-left: 75px;
+}
+
+.cc-img1:hover {
+    scale: 1.2;
+    transition-duration: 3s;
+    text-shadow: 2px 2px;
+}
+
+.cc-img2 {
+    /* width: 150px; */
+    height: 145px;
+}
+
+.cc-img2:hover {
+    scale: 1.2;
+    transition-duration: 3s;
+    text-shadow: 2px 2px;
+}
+
+.cc-card-box {
+    width: 70%;
+    height: 80%;
+    background-color: #f9bc40;
+}
+
+.cc-card-box:hover {
+    background-color: white;
+    transition-duration: 5s;
+}
+
+.cc-card-box-top {
+    width: 50%;
+    height: 100%;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    background-color: white;
+}
+
+.cc-card-box-top:hover {
+    background-color: black;
+    transition-duration: 5s;
+}
+
+.cc-image1 {
+    font-size: 40px;
+    margin-left: 10%;
+}
+
+
+/* .cc-card-box:hover > .cc-card-box {
+    background-color: white;
+    transition-duration: 5s;
+}
+
+.cc-card-box:hover > .cc-card-box-top {
+    background-color: black;
+    transition-duration: 5s;
+} */
+
+@media (max-width: 576px) {
+    .cc-card-box {
+        width: 55%;
+        height: 80%;
+        background-color: #f9bc40;
+    }
+
+    .cc-card-box:hover {
+        background-color: white;
+        transition-duration: 5s;
+    }
+
+    .cc-card-box-top {
+        width: 50%;
+        height: 100%;
+        border-bottom-left-radius: 100px;
+        border-bottom-right-radius: 100px;
+        background-color: white;
+    }
+
+    .cc-card-box-top:hover {
+        background-color: black;
+        transition-duration: 5s;
+    }
+}
+
+@media (max-width: 576px) {
+    .cc-icon {
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .cc-gap {
+        gap: 9px;
+    } 
+
+}
+
+@media (min-width: 1200px) {
+    .cc-icon {
+        display: flex;
+        flex-wrap: nowrap;
+        flex-grow: 1;
+    }
+    
+}
